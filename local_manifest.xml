@@ -2,7 +2,7 @@
 <manifest>
   <!-- device trees -->
   <project name="shivatejapeddi/android_device_leeco_msm8996-common" path="device/leeco/msm8996-common" remote="github" revision="9.x"/>
-  <project name="shivatejapeddi/android_device_leeco_x2" path="device/leeco/x2" remote="github" revision="aexpie"/>
+  <project name="shivatejapeddi/android_device_leeco_x2" path="device/leeco/x2" remote="github" revision="9.x"/>
 
 
   <!-- dependencies -->
@@ -13,7 +13,5 @@
 
   <!-- vendor / blobs -->
   <project name="shivatejapeddi/proprietary_vendor_leeco" path="vendor/leeco" remote="github" revision="9.x"/>
-  
-  <!-- we use leeco-devs for pending commits
-  <project name="leeco-devs/proprietary_vendor_leeco" path="vendor/leeco" remote="github" revision="lineage-16.0"/> -->
+ 
 </manifest>
